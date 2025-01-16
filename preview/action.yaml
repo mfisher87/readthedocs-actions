@@ -34,7 +34,7 @@ runs:
   steps:
     - uses: actions/checkout@v3
       with:
-        repository: "readthedocs/actions"
+        repository: "mfisher87/readthedocs-actions"
         ref: "v1"
 
     - name: "Comment on Pull Request with Read the Docs' preview links"
