@@ -35,7 +35,7 @@ runs:
     - uses: actions/checkout@v3
       with:
         repository: "mfisher87/readthedocs-actions"
-        ref: "v1"
+        ref: "main"
 
     - name: "Comment on Pull Request with Read the Docs' preview links"
       uses: actions/github-script@v6
